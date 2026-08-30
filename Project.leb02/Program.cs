@@ -1,4 +1,5 @@
-﻿namespace project_129C
+﻿using System;
+namespace project_129C
 {
     internal class Program
     {
@@ -36,8 +37,78 @@
             Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent = currentHp * 100 / maxHp;
+            Console.WriteLine();
+            string characterName1 = "Jojo";
+            char rank1 = 'S';
+            int level1 = 15;
+            int maxHp1 = 500;
+            float attackPower1 = 72.5f;
+            double critMultiplier1 = 1.75;
+            bool male1 = true;
+            Console.WriteLine();
 
+            // ประกาศตัวแปร 6 ตัว
+            Console.WriteLine("===== Jojo STATUS: INITIAL =====");
+            Console.WriteLine($"Name:{characterName1}");
+            Console.WriteLine($"Rank:{rank}");
+            Console.WriteLine($"Attack Power:{attackPower1}");
+            Console.WriteLine($"Crit Multiplier:{critMultiplier1}");
+            Console.WriteLine($"Is Boss:{male1}");
 
+            Console.WriteLine();
+            string characterName2 = "darin";    
+            char rank2 = 'S';              
+            int level2 = 8;                
+            int maxHp2 = 300;
+            float attackPower2 = 55.5f;    
+            double critMultiplier2 = 1.75; 
+            bool male2 = true;
+            Console.WriteLine();
+            // ประกาศตัวแปร 6 ตัว
+            Console.WriteLine("===== Darin STATUS: INITIAL =====");
+            Console.WriteLine($"Name:{characterName2}");
+            Console.WriteLine($"Rank:{rank2}");
+            Console.WriteLine($"Attack Power:{attackPower2}");
+            Console.WriteLine($"Crit Multiplier:{critMultiplier2}");
+            Console.WriteLine($"Is Boss:{male2}");
+            Console.WriteLine();
+
+            string characterName3 = "Jack";
+            char rank3 = 'S';
+            int level3 = 14;
+            int maxHp3 = 600;
+            float attackPower3 = 95.5f;
+            double critMultiplier3 = 1.75;
+            bool male3 = true;
+            Console.WriteLine();
+            // ประกาศตัวแปร 6 ตัว
+            Console.WriteLine("===== Jack STATUS: INITIAL =====");
+            Console.WriteLine($"Name:{characterName3}");
+            Console.WriteLine($"Rank:{rank3}");
+            Console.WriteLine($"Attack Power:{attackPower3}");
+            Console.WriteLine($"Crit Multiplier:{critMultiplier3}");
+            Console.WriteLine($"Is Boss:{male3}");
+
+            Console.WriteLine();
+
+            string characterName4 = "Porza";
+            char rank4 = 'S';
+            int level4 = 30;
+            int maxHp4 = 1600;
+            float attackPower4 = 295.5f;
+            double critMultiplier4  = 1.75;
+            bool male4 = true;
+            Console.WriteLine();
+            // ประกาศตัวแปร 6 ตัว
+            Console.WriteLine("===== Porza STATUS: INITIAL =====");
+            Console.WriteLine($"Name:{characterName4}");
+            Console.WriteLine($"Rank:{rank4}");
+            Console.WriteLine($"Attack Power:{attackPower4}");
+            Console.WriteLine($"Crit Multiplier:{critMultiplier4}");
+            Console.WriteLine($"Is Boss:{male4}");
+
+            Console.WriteLine();
         }
+
     }
 }
