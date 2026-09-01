@@ -108,7 +108,34 @@ namespace project_129C
             Console.WriteLine($"Is Boss:{male4}");
 
             Console.WriteLine();
+
+            // การปริ้นลง Console เว้น บรรทัด #1
+            Console.WriteLine();
+            // การปริ้นลง Console เว้น บรรทัด #2
+            Console.WriteLine("\n");
+
+            // Example 1
+            Console.WriteLine("I GO TO SCHOOL");
+            Console.WriteLine(); //เว้นบรรทัด
+            Console.WriteLine("I AM HUNGRY");
+            // Example 2
+            Console.WriteLine("I GO TO SCHOOL\n"); // เว้นบรรทัด
+            Console.WriteLine("I AM HUNGRY");
+
+            // format การพิมพ์ข้อความ
+            // Example 1 การพิมพ์ทีละบรรทัด
+            Console.WriteLine("I AM SLEEPY");
+            Console.WriteLine("I GO TO SLEEP");
+            Console.WriteLine("I WOKE UP");
+            // Example 2 การพิมพ์แบบประหยัดบรรทัดโค๊ด
+            Console.WriteLine("I AM SLEEPY\nI GO TO SLEEP\nI WOKE UP");
+            // Example 3 Hybrid รวมทั้งสองแบบ
+            Console.WriteLine("I AM SLEEPY" +
+                "\nI GO TO SLEEP" +
+                "\nI WOKE UP");
         }
+
+    }
 
     }
 }
