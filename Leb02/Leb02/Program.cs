@@ -1,4 +1,4 @@
-﻿/*
+﻿{/*
  * Student ID : 1690702509
  * Name       : Leb02
  * Section    : 129C
@@ -10,10 +10,8 @@ namespace Leb02
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        
+
 
     }
 }
