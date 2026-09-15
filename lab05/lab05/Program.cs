@@ -61,7 +61,7 @@ namespace lab05
             // Random, simple percent chance
             Random RNG = new Random();
             int roll = RNG.Next(1, 100 + 1); //ต้อง +1 ค่ามากสุดเสมอ เช่นอยากได้ 100 ต้อง 101 เสมอ
-            bool isCrit = roll <= 99; // 10% chance จาก 100
+            bool isCrit = roll <= 50; // 10% chance จาก 100
             int critDmg = normalDamage + Convert.ToInt32(isCrit) * normalDamage; // ถ้า isCrit เป็นจริง จะได้ค่า 1 * normalDamage แต่ถ้าเป็นเท็จ จะได้ค่า 0 * normalDamage
             Console.WriteLine($"\nCritical hit roll: {roll} (Critical: { isCrit})");
             Console.WriteLine($"If critical, normal attack would increase deal: {critDmg}");
