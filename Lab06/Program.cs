@@ -1,5 +1,12 @@
 ﻿using System;
 using System.ComponentModel.Design;
+/*
+* Student ID : 1690702509
+* Name       : Leb02
+* Section    : 129C
+* No.        : 15
+* Course     : GI113 Computer Programming (GI)
+*/
 namespace Lab06
 {
     internal class Program
